@@ -12,6 +12,19 @@ Ingredient.destroy_all
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
+Ingredient.create(name: "tonic water")
+Ingredient.create(name: "ginger ale")
+Ingredient.create(name: "orange juice")
+Ingredient.create(name: "cranberry juice")
+Ingredient.create(name: "whiskey")
+Ingredient.create(name: "rum")
+Ingredient.create(name: "vodka")
+Ingredient.create(name: "coke")
+Ingredient.create(name: "pineapple")
+Ingredient.create(name: "grapefruit")
+Ingredient.create(name: "strawberry")
+Ingredient.create(name: "spezi")
+
 
 # url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 # ingredient = JSON.parse(open(url).read)
