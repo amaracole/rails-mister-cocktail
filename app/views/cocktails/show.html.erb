@@ -13,13 +13,8 @@
         </p>
     <% end %>
     </div>
+      <%= link_to "Add dose", new_cocktail_dose_path(@cocktail), class: "btn btn-ghost" %>
   </div>
 
-  <button class="btn btn-ghost">
-    <%= link_to "Add dose", new_cocktail_dose_path(@cocktail) %>
-  </button>
-
-  <button class="btn btn-ghost">
-    <%= link_to "Cocktails", cocktails_path %>
-  </button>
+    <%= link_to "Cocktails", cocktails_path, class: "btn btn-ghost" %>
 </div>
